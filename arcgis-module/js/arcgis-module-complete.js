@@ -90,11 +90,9 @@ require(
           width: "4px" // The value accepts px and pt units
         }
       },
-      visible: true // OPTIONAL: changes the shape visibility
     });
 
-    // The "0" is an index value, which sets the layer on top of all the pre-existing layers.
-    graphicsLayer.add(polygonGraphic, 0);
+    graphicsLayer.add(polygonGraphic, 0); // "0" is an index value, which sets the layer on top of all the pre-existing layers.
 
     //////////////////////////////////
     //    The layer list widget     //
